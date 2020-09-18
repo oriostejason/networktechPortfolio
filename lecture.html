@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="networktechPortfolio\css\main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>My Works</title>
+</head>
+
+<body style="background-color: rgb(37, 37, 37);" >
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <nav class="menu">
+            <div class="menu-left">
+                <div class="portrait">
+                    <img src="img/jason3.jpg"
+                        style=" width: 230px; height: 230px; border-radius: 50%;  border: solid 3px">
+                </div>
+            </div>
+
+            <ul class="menu-nav">
+                <li class="nav-item ">
+                    <a href="index.html" class="nav-link ">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        About This Webpage
+                    </a>
+                </li>
+                <li class="nav-item current">
+                    <a href="lecture.html " class="nav-link">
+                        lecture / Materials
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="mywork.html " class="nav-link">
+                        My Laboratory Works
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="relatedVideos.html" class="nav-link">
+                        Related Videos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        How to Reach Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="lecture">
+        <h1 class="lg-heading">
+            Lecture / <span class="secondary-color">Materials</span>
+        </h1>
+        <h2 class="sm-heading">
+            You can read and download all the lecture materials... 
+        </h2>
+        <div class="lecture-content">
+            <img src="img/ppt.jpg" alt="" class="about-image">
+            <div class="info">
+                <h3 class="secondary-color">Lecture/Materials</h3>
+                <p>This page will show you all Lecture / Materials on this subject.</p>
+            </div>
+        </div>    
+        <!-- Nav pills -->
+        <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item ">
+                <a class="nav-link active" data-toggle="pill" href="#chap1">Chapter 1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#chap2">Chapter 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#chap3">Chapter 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#chap4">Chapter 4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="pill" href="#chap5">Chapter 5</a>
+            </li>
+        </ul>
+           
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div id="chap1" class="container tab-pane active"><br>
+                <h3 class="sm-heading">Chapter 1</h3>
+                <h3>
+                    Introducing Computer Networks
+                </h3>
+                <embed type="application/pdf" src="lecture/Chapter1-IntroToComputerNetworks.pdf"></embed>
+            </div>
+            <div id="chap2" class="container tab-pane fade"><br>
+                <h3 class="sm-heading">Chapter 2</h3>
+                <h3>
+                    Networking Today
+                </h3>
+                <embed type="application/pdf" src="lecture/NetworkingToday.pdf"></embed>
+                <embed type="application/pdf" src="lecture/NetworkingToday_Part 2.pdf"></embed>
+            </div>
+            <div id="chap3" class="container tab-pane fade"><br>
+                <h3 class="sm-heading">Chapter 3</h3>
+                <h3>
+                    Identifying Network components
+                </h3>
+                <embed type="application/pdf" src="lecture/chpater3-IdentifyingNetworkComponents.pdf"></embed>
+            </div>
+            <div id="chap4" class="container tab-pane fade"><br>
+                <h3 class="sm-heading">Chapter 4</h3>
+                <h3>
+                    Network Protocols and Routing
+                </h3>
+                <embed type="application/pdf" src="lecture/Chapter4-NetworkProtocolsAndRouting.pdf"></embed>
+            </div>
+            <div id="chap5" class="container tab-pane fade"><br>
+                <h3 class="sm-heading">Chapter 5</h3>
+                <h3>
+                    Network Cabling
+                </h3>
+                <embed type="application/pdf" src="lecture/chpater5-NetworkCabling.pdf"></embed>
+            </div>
+        </div>
+    </main>
+    <footer id="main-footer">
+        Jason Orioste Copyright &copy; 2020
+    </footer>
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>
